@@ -118,7 +118,7 @@ function createEmployee(salary: number) {
 
 /////////////////////TASK 06//////////////
 
-function isDirector(employee: Director | Teacher) {
+export function isDirector(employee: Director | Teacher) {
   return employee as Director;
 }
 
