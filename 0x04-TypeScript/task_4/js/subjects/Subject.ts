@@ -2,7 +2,9 @@ namespace Subjects {
   export class Subject {
     teacher: Teacher;
 
-    setTeacher(teacher: Teacher) {
+    // prettier-ignore
+    setTeacher(teacher:Teacher) {
+      
       this.teacher = teacher;
     }
   }
